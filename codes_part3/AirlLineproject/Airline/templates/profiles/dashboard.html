@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head><title>Dashboard</title></head>
+<body>
+    <h2>User Dashboard</h2>
+    <p>User: {{ user.email }}</p>
+
+    <p>Wallet Balance: <b>{{ user.wallet_balance }}</b> Toman</p>
+
+    <div style="background-color: #f0f0f0; padding: 10px; border: 1px solid #ccc;">
+        <h3>Charge Wallet</h3>
+        <form method="post">
+            {% csrf_token %}
+            Amount: <input type="number" name="amount" placeholder="Example: 5000000">
+            <button type="submit">Charge (+)</button>
+        </form>
+    </div>
+
+    <hr>
+    <h3>My Tickets</h3>
+    <ul>
+    {% for ticket in user.reservation_set.all %}
+        <li>
+            {{ ticket.flight }} - Status: {{ ticket.status }}
+            {% if ticket.status == 'PUR' %}
+                <a href="{% url 'cancel_flight' ticket.id %}" style="color:red">[CANCEL TICKET]</a>
+            {% endif %}
+        </li>
+    {% empty %}
+        <p>No tickets purchased.</p>
+    {% endfor %}
+    </ul>
+
+    <hr>
+    <a href="{% url 'home' %}">Back to Home</a>
+</body>
+</html>

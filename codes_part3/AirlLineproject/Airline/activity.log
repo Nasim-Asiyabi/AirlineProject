@@ -1,0 +1,127 @@
+INFO 2025-12-27 15:47:25,521 autoreload Watching for file changes with StatReloader
+INFO 2025-12-27 15:47:38,507 autoreload Watching for file changes with StatReloader
+INFO 2025-12-27 15:47:55,457 autoreload Watching for file changes with StatReloader
+INFO 2025-12-27 15:48:24,923 autoreload Watching for file changes with StatReloader
+INFO 2025-12-27 15:48:30,857 basehttp "GET / HTTP/1.1" 200 1101
+WARNING 2025-12-27 15:48:30,937 log Not Found: /favicon.ico
+WARNING 2025-12-27 15:48:30,937 basehttp "GET /favicon.ico HTTP/1.1" 404 3176
+INFO 2025-12-27 15:48:34,222 basehttp "GET /accounts/login/ HTTP/1.1" 200 835
+INFO 2025-12-27 15:48:42,412 views User logged in: hana13ase@gmail.com
+INFO 2025-12-27 15:48:42,421 basehttp "POST /accounts/login/ HTTP/1.1" 302 0
+INFO 2025-12-27 15:48:42,443 basehttp "GET / HTTP/1.1" 200 1166
+INFO 2025-12-27 15:49:06,292 views TICKET PURCHASED: User hana13ase@gmail.com bought ticket for Tabriz (TBZ) to Tehran (THR)
+INFO 2025-12-27 15:49:06,298 basehttp "GET /book/1/ HTTP/1.1" 302 0
+INFO 2025-12-27 15:49:06,340 basehttp "GET /accounts/dashboard/ HTTP/1.1" 200 1476
+INFO 2025-12-27 15:49:38,835 basehttp "GET / HTTP/1.1" 200 1166
+INFO 2025-12-27 15:49:42,468 basehttp "GET /accounts/dashboard/ HTTP/1.1" 200 1476
+INFO 2025-12-27 15:49:45,467 basehttp "GET / HTTP/1.1" 200 1166
+INFO 2025-12-27 15:49:46,622 views User logged out: hana13ase@gmail.com
+INFO 2025-12-27 15:49:46,636 basehttp "GET /accounts/logout/ HTTP/1.1" 302 0
+INFO 2025-12-27 15:49:46,672 basehttp "GET / HTTP/1.1" 200 1101
+INFO 2025-12-27 15:49:51,805 basehttp "GET / HTTP/1.1" 200 1101
+INFO 2025-12-27 15:53:57,879 autoreload Watching for file changes with StatReloader
+INFO 2025-12-27 15:53:59,027 basehttp "GET / HTTP/1.1" 200 1101
+INFO 2025-12-27 15:54:05,158 basehttp "GET /admin HTTP/1.1" 301 0
+INFO 2025-12-27 15:54:05,181 basehttp "GET /admin/ HTTP/1.1" 302 0
+INFO 2025-12-27 15:54:05,300 basehttp "GET /admin/login/?next=/admin/ HTTP/1.1" 200 4173
+INFO 2025-12-27 15:54:05,335 basehttp "GET /static/admin/css/responsive.css HTTP/1.1" 304 0
+INFO 2025-12-27 15:54:05,634 basehttp "GET /static/admin/css/base.css HTTP/1.1" 200 22120
+INFO 2025-12-27 15:54:05,649 basehttp "GET /static/admin/css/nav_sidebar.css HTTP/1.1" 200 2810
+INFO 2025-12-27 15:54:05,650 basehttp "GET /static/admin/css/login.css HTTP/1.1" 200 951
+INFO 2025-12-27 15:54:05,650 basehttp "GET /static/admin/css/dark_mode.css HTTP/1.1" 200 2808
+INFO 2025-12-27 15:54:05,657 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-12-27 15:54:05,657 basehttp "GET /static/admin/js/theme.js HTTP/1.1" 200 1653
+INFO 2025-12-27 15:54:05,683 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-12-27 15:54:05,708 basehttp "GET /static/admin/js/nav_sidebar.js HTTP/1.1" 200 3063
+INFO 2025-12-27 15:54:14,311 basehttp "POST /admin/login/?next=/admin/ HTTP/1.1" 302 0
+INFO 2025-12-27 15:54:14,503 basehttp "GET /admin/ HTTP/1.1" 200 10075
+INFO 2025-12-27 15:54:14,531 basehttp "GET /static/admin/img/icon-addlink.svg HTTP/1.1" 304 0
+INFO 2025-12-27 15:54:14,547 basehttp "GET /static/admin/img/icon-changelink.svg HTTP/1.1" 200 380
+INFO 2025-12-27 15:54:14,548 basehttp "GET /static/admin/css/dashboard.css HTTP/1.1" 200 441
+INFO 2025-12-27 15:54:51,694 basehttp "GET /admin/flights/airline/add/ HTTP/1.1" 200 11265
+INFO 2025-12-27 15:54:51,748 basehttp "GET /static/admin/css/forms.css HTTP/1.1" 200 8525
+INFO 2025-12-27 15:54:51,755 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-12-27 15:54:51,764 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-12-27 15:54:51,768 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-12-27 15:54:51,771 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 304 0
+INFO 2025-12-27 15:54:51,771 basehttp "GET /static/admin/css/widgets.css HTTP/1.1" 200 11973
+INFO 2025-12-27 15:54:51,775 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 304 0
+INFO 2025-12-27 15:54:51,788 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-12-27 15:54:51,790 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-12-27 15:54:51,790 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-12-27 15:54:51,790 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 15:54:51,820 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-12-27 15:54:51,829 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-12-27 15:55:02,049 basehttp "POST /admin/flights/airline/add/ HTTP/1.1" 302 0
+INFO 2025-12-27 15:55:02,257 basehttp "GET /admin/flights/airline/ HTTP/1.1" 200 12252
+INFO 2025-12-27 15:55:02,306 basehttp "GET /static/admin/js/jquery.init.js HTTP/1.1" 200 347
+INFO 2025-12-27 15:55:02,314 basehttp "GET /static/admin/js/core.js HTTP/1.1" 200 6208
+INFO 2025-12-27 15:55:02,318 basehttp "GET /static/admin/js/admin/RelatedObjectLookups.js HTTP/1.1" 200 9777
+INFO 2025-12-27 15:55:02,321 basehttp "GET /static/admin/css/changelists.css HTTP/1.1" 200 6878
+INFO 2025-12-27 15:55:02,321 basehttp "GET /static/admin/js/actions.js HTTP/1.1" 200 8076
+INFO 2025-12-27 15:55:02,322 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 15:55:02,322 basehttp "GET /static/admin/js/urlify.js HTTP/1.1" 200 7887
+INFO 2025-12-27 15:55:02,322 basehttp "GET /static/admin/js/vendor/jquery/jquery.js HTTP/1.1" 200 285314
+INFO 2025-12-27 15:55:02,322 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 304 0
+INFO 2025-12-27 15:55:02,347 basehttp "GET /static/admin/js/prepopulate.js HTTP/1.1" 200 1531
+INFO 2025-12-27 15:55:02,347 basehttp "GET /static/admin/img/tooltag-add.svg HTTP/1.1" 304 0
+INFO 2025-12-27 15:55:02,362 basehttp "GET /static/admin/img/icon-yes.svg HTTP/1.1" 200 436
+INFO 2025-12-27 15:55:02,541 basehttp "GET /static/admin/js/vendor/xregexp/xregexp.js HTTP/1.1" 200 325171
+INFO 2025-12-27 15:55:03,575 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 15:55:03,591 basehttp "GET /static/admin/js/filters.js HTTP/1.1" 200 978
+INFO 2025-12-27 15:55:09,980 basehttp "GET /admin/flights/airport/ HTTP/1.1" 200 12064
+INFO 2025-12-27 15:55:10,018 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 15:55:10,037 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 15:55:17,224 basehttp "GET /admin/flights/airport/add/ HTTP/1.1" 200 11881
+INFO 2025-12-27 15:55:17,267 basehttp "GET /static/admin/js/prepopulate_init.js HTTP/1.1" 200 586
+INFO 2025-12-27 15:55:17,271 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 15:55:17,300 basehttp "GET /static/admin/js/change_form.js HTTP/1.1" 200 606
+INFO 2025-12-27 15:55:17,321 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 15:55:27,008 basehttp "POST /admin/flights/airport/add/ HTTP/1.1" 302 0
+INFO 2025-12-27 15:55:27,047 basehttp "GET /admin/flights/airport/ HTTP/1.1" 200 12549
+INFO 2025-12-27 15:55:27,097 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 15:55:27,121 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 15:55:33,643 basehttp "GET /admin/flights/flight/ HTTP/1.1" 200 13018
+INFO 2025-12-27 15:55:33,679 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 15:55:33,699 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 15:55:39,248 basehttp "GET /admin/flights/flight/add/ HTTP/1.1" 200 18390
+INFO 2025-12-27 15:55:39,293 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 15:55:39,312 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2025-12-27 15:55:39,314 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 15:55:39,314 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-12-27 15:55:39,331 basehttp "GET /static/admin/img/icon-viewlink.svg HTTP/1.1" 200 581
+INFO 2025-12-27 15:55:39,335 basehttp "GET /static/admin/js/calendar.js HTTP/1.1" 200 9141
+INFO 2025-12-27 15:55:39,335 basehttp "GET /static/admin/js/admin/DateTimeShortcuts.js HTTP/1.1" 200 19319
+INFO 2025-12-27 15:55:39,364 basehttp "GET /static/admin/img/icon-clock.svg HTTP/1.1" 200 677
+INFO 2025-12-27 15:55:39,364 basehttp "GET /static/admin/img/icon-calendar.svg HTTP/1.1" 200 1086
+INFO 2025-12-27 15:55:42,778 basehttp "GET /admin/flights/route/ HTTP/1.1" 200 11800
+INFO 2025-12-27 15:55:42,840 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 15:55:42,863 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 15:55:44,426 basehttp "GET /admin/flights/route/add/ HTTP/1.1" 200 14263
+INFO 2025-12-27 15:55:44,476 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 15:55:44,497 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 15:55:50,153 basehttp "POST /admin/flights/route/add/ HTTP/1.1" 302 0
+INFO 2025-12-27 15:55:50,196 basehttp "GET /admin/flights/route/ HTTP/1.1" 200 12328
+INFO 2025-12-27 15:55:50,237 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 15:55:52,119 basehttp "GET /admin/flights/flight/add/ HTTP/1.1" 200 18450
+INFO 2025-12-27 15:55:52,153 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 15:55:59,566 basehttp "GET /static/admin/img/calendar-icons.svg HTTP/1.1" 200 2455
+INFO 2025-12-27 15:56:29,268 basehttp "POST /admin/flights/flight/add/ HTTP/1.1" 302 0
+INFO 2025-12-27 15:56:29,301 basehttp "GET /admin/flights/flight/ HTTP/1.1" 200 13857
+INFO 2025-12-27 15:56:29,366 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 15:56:30,777 basehttp "GET /admin/flights/reservation/ HTTP/1.1" 200 15616
+INFO 2025-12-27 15:56:30,833 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 15:56:36,796 basehttp "GET / HTTP/1.1" 200 1519
+INFO 2025-12-27 16:00:15,762 autoreload Watching for file changes with StatReloader
+INFO 2025-12-27 16:00:20,081 basehttp "GET /admin/flights/reservation/ HTTP/1.1" 200 17620
+INFO 2025-12-27 16:00:20,134 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 16:00:20,235 basehttp "GET /static/admin/img/search.svg HTTP/1.1" 200 458
+INFO 2025-12-27 16:00:24,876 basehttp "GET /admin/sessions/session/ HTTP/1.1" 200 14157
+INFO 2025-12-27 16:00:24,939 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 16:00:34,808 basehttp "GET /admin/sessions/session/fr7wfua4xu0crfru17fxq45yt07ohcji/change/ HTTP/1.1" 200 14427
+INFO 2025-12-27 16:00:34,851 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 16:00:40,002 basehttp "GET /admin/sessions/session/ HTTP/1.1" 200 14157
+INFO 2025-12-27 16:01:57,173 basehttp "GET /admin/flights/flight/ HTTP/1.1" 200 16057
+INFO 2025-12-27 16:01:57,226 basehttp "GET /admin/jsi18n/ HTTP/1.1" 200 3342
+INFO 2025-12-27 16:05:27,708 autoreload Watching for file changes with StatReloader
+INFO 2025-12-27 16:07:02,748 autoreload Watching for file changes with StatReloader
